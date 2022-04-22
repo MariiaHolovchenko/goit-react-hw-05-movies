@@ -34,6 +34,7 @@ export const movieReviews = async id => {
     `https://api.themoviedb.org/3/movie/${id}/reviews?api_key=${key}&language=en-US&page=1`,
   );
   const data = [];
+  // eslint-disable-next-line array-callback-return
   response.data.results.map(result => {
     data.push(result);
   });
