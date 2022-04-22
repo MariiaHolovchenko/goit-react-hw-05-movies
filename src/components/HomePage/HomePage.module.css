@@ -1,0 +1,17 @@
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.list {
+  list-style: none;
+  cursor: pointer;
+}
+
+.link:hover,
+:focus {
+  color: red;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+}
